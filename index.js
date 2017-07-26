@@ -8,7 +8,9 @@ function sortArray(num){
     if(first == num[i+1]){
       return true;
     }
-  }return false;
-  
+  }
+  //Be careful with whitespace
+  return false;
+  //Remove whitespace...
 }
 document.write(sortArray([1,2,3,4,5,0]));
